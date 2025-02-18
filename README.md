@@ -11,4 +11,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python3 bbb-recorder.py -f url.txt
 ```
-# Note: You have to have ffmpeg installed on your OS.
+# Note: You have to have ffmpeg and Google Chrome installed on your OS.
+```
+sudo apt install ffmpeg
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+# You might need to run these two as well
+sudo apt-get install -f
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+```
