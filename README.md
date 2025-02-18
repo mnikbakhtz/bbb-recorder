@@ -11,3 +11,4 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python3 bbb-recorder.py -f url.txt
 ```
+# Note: You have to have ffmpeg installed on your OS.
